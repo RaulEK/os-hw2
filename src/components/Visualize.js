@@ -22,7 +22,7 @@ class Visualize extends React.Component {
 
 
     componentDidMount() {
-        const colors = ['Green', 'Red', 'OrangeRed', 'LightSeaGreen', 'Gold', 'Aqua', 'Olive', 'HotPink', 'RoyalBlue', 'Maroon'];
+        const colors = ['Green', 'Red', '#FF00FF', 'LightSeaGreen', 'Gold', 'Aqua', 'Olive', 'Orange', 'RoyalBlue', 'Maroon'];
         const canvas = this.refs.canvas;
         const ctx = canvas.getContext('2d');
 
@@ -74,7 +74,7 @@ render()
 {
     return (
         <div>
-            <canvas ref="canvas" width={1500} height={230}></canvas>
+            <canvas ref="canvas" width={1150} height={230}></canvas>
         </div>
     )
 }

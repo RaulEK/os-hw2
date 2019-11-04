@@ -86,7 +86,7 @@ const LF = (props) => {
 
     return (
         <div>
-            <p>Last-Fit</p>
+            <p>Visualiseeritud algoritm: <strong>Last-Fit</strong></p>
             <Visualize processes={addedProcesses} grid={grid}/>
         </div>
 
@@ -136,7 +136,7 @@ const BF = (props) => {
 
     return (
         <div>
-            <p>Best Fit</p>
+            <p>Visualiseeritud algoritm: <strong>Best Fit</strong></p>
             <Visualize processes={addedProcesses} grid={grid}/>
         </div>
     )
@@ -185,7 +185,7 @@ const WF = (props) => {
 
     return (
         <div>
-            <p>Worst Fit</p>
+            <p>Visualiseeritud algoritm: <strong>Worst Fit</strong></p>
             <Visualize processes={addedProcesses} grid={grid}/>
         </div>
     )
@@ -228,7 +228,7 @@ const RF = (props) => {
 
     return (
         <div>
-            <p>Random Fit</p>
+            <p>Visualiseeritud algoritm: <strong>Random Fit</strong></p>
             <Visualize processes={addedProcesses} grid={grid}/>
         </div>
     )
