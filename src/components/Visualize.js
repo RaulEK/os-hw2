@@ -26,8 +26,6 @@ class Visualize extends React.Component {
         const canvas = this.refs.canvas;
         const ctx = canvas.getContext('2d');
 
-        console.log(this.state.processes);
-
         ctx.font = '14px Comic Sans Mr';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'bottom';

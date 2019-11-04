@@ -117,6 +117,8 @@ const BF = (props) => {
                             if (j - i - 1 < gap || gap === 0) {
                                 gap = j - i - 1;
                                 x = i + 1;
+                                i = j;
+                                break;
                             }
                         }
                     }
@@ -164,6 +166,8 @@ const WF = (props) => {
                             if (j - i - 1 > gap) {
                                 gap = j - i - 1;
                                 x = i + 1;
+                                i = j;
+                                break;
                             }
                         }
                     }
@@ -217,7 +221,7 @@ const RF = (props) => {
                 grid = fillGrid(0, process, inputX[process], inputY[process], grid, alphabet[process])
             }
         } else {
-            const random = getRandomInteger(0, x.length-1);
+            const random = getRandomInteger(0, x.length);
             grid = fillGrid(x[random], process, inputX[process], inputY[process], grid, alphabet[process])
         }
     }
