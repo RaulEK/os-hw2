@@ -162,11 +162,12 @@ const WF = (props) => {
                 if (processFits(i + 1, process, inputX[process], inputY[process], grid)) {
 
                     for (let j = i + inputX[process]; j < 50; j++) {
+
                         if (grid[process][j] !== '-' || j === 49) {
                             if (j - i - 1 > gap) {
                                 gap = j - i - 1;
                                 x = i + 1;
-                                i = j;
+                                i = j - 1;
                                 break;
                             }
                         }
