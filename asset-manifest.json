@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/memoryallocationvisualizer/static/css/main.1bfabc82.chunk.css",
-    "main.js": "/memoryallocationvisualizer/static/js/main.5f6d4b71.chunk.js",
-    "main.js.map": "/memoryallocationvisualizer/static/js/main.5f6d4b71.chunk.js.map",
-    "runtime-main.js": "/memoryallocationvisualizer/static/js/runtime-main.ff4da5bd.js",
-    "runtime-main.js.map": "/memoryallocationvisualizer/static/js/runtime-main.ff4da5bd.js.map",
-    "static/js/2.ca99efb9.chunk.js": "/memoryallocationvisualizer/static/js/2.ca99efb9.chunk.js",
-    "static/js/2.ca99efb9.chunk.js.map": "/memoryallocationvisualizer/static/js/2.ca99efb9.chunk.js.map",
-    "index.html": "/memoryallocationvisualizer/index.html",
-    "precache-manifest.a5dfde4b58e218d948b9277bb768d8f7.js": "/memoryallocationvisualizer/precache-manifest.a5dfde4b58e218d948b9277bb768d8f7.js",
-    "service-worker.js": "/memoryallocationvisualizer/service-worker.js",
-    "static/css/main.1bfabc82.chunk.css.map": "/memoryallocationvisualizer/static/css/main.1bfabc82.chunk.css.map",
-    "static/js/2.ca99efb9.chunk.js.LICENSE.txt": "/memoryallocationvisualizer/static/js/2.ca99efb9.chunk.js.LICENSE.txt"
+    "main.css": "/MemoryAllocationVisualizer/static/css/main.1bfabc82.chunk.css",
+    "main.js": "/MemoryAllocationVisualizer/static/js/main.5f6d4b71.chunk.js",
+    "main.js.map": "/MemoryAllocationVisualizer/static/js/main.5f6d4b71.chunk.js.map",
+    "runtime-main.js": "/MemoryAllocationVisualizer/static/js/runtime-main.29e72601.js",
+    "runtime-main.js.map": "/MemoryAllocationVisualizer/static/js/runtime-main.29e72601.js.map",
+    "static/js/2.ca99efb9.chunk.js": "/MemoryAllocationVisualizer/static/js/2.ca99efb9.chunk.js",
+    "static/js/2.ca99efb9.chunk.js.map": "/MemoryAllocationVisualizer/static/js/2.ca99efb9.chunk.js.map",
+    "index.html": "/MemoryAllocationVisualizer/index.html",
+    "precache-manifest.c06dac8ba72840df89656e8f61363083.js": "/MemoryAllocationVisualizer/precache-manifest.c06dac8ba72840df89656e8f61363083.js",
+    "service-worker.js": "/MemoryAllocationVisualizer/service-worker.js",
+    "static/css/main.1bfabc82.chunk.css.map": "/MemoryAllocationVisualizer/static/css/main.1bfabc82.chunk.css.map",
+    "static/js/2.ca99efb9.chunk.js.LICENSE.txt": "/MemoryAllocationVisualizer/static/js/2.ca99efb9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff4da5bd.js",
+    "static/js/runtime-main.29e72601.js",
     "static/js/2.ca99efb9.chunk.js",
     "static/css/main.1bfabc82.chunk.css",
     "static/js/main.5f6d4b71.chunk.js"
